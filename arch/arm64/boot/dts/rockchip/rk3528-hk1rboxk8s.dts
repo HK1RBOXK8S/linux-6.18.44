@@ -130,9 +130,7 @@
 };
 
 &gmac0 {
-	clock_in_out = "input";
-	phy-supply = <&vcc_3v3>;
-    status = "okay";
+	status = "okay";
 };
 
 &gpu {
