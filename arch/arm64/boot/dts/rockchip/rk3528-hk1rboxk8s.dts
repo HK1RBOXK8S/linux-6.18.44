@@ -13,8 +13,8 @@
 #include "rk3528.dtsi"
 
 / {
-	model = "Radxa E20C";
-	compatible = "radxa,e20c", "rockchip,rk3528";
+	model = "HK1RBOXK8S RK3528";
+	compatible = "hk1rboxk8s,rk3528", "rockchip,rk3528";
 
 	aliases {
 		ethernet0 = &gmac0;
@@ -130,7 +130,7 @@
 };
 
 &gmac0 {
-	status = "okay";
+	status = "disabled";
 };
 
 &gpu {
