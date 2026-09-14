@@ -130,7 +130,7 @@
 };
 
 &gmac0 {
-	status = "disabled";
+	status = "okay";
 };
 
 &gpu {
