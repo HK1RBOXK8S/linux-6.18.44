@@ -140,6 +140,7 @@
 
 &mdio0 {
 	rmii0_phy: ethernet-phy@2 {
+		compatible = "ethernet-phy-id0044.1400", "ethernet-phy-ieee802.3-c22";
 		reset-assert-us = <20000>;
 		reset-deassert-us = <100000>;
 		reset-gpios = <&gpio4 RK_PC2 GPIO_ACTIVE_LOW>;
@@ -180,6 +181,10 @@
 	non-removable;
 	vmmc-supply = <&vcc_3v3>;
 	vqmmc-supply = <&vcc_1v8>;
+	status = "okay";
+};
+
+&sdio1 {
 	status = "okay";
 };
 
